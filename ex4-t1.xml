@@ -13,14 +13,14 @@
     </stages>
 
     <lineup>
-        <artist id="_01" stage="SchlagerBühne">
+        <artist id="_01" stage="SchlagerBühne" genre="schlager">
             <description>
                 <name>Helene Fischer</name>
                 <bio>A German schlager singer. Since her debut in 2005, she has won numerous awards</bio>
             </description>
         </artist>
 
-        <artist id="_02" stage="Ö3Bühne">
+        <artist id="_02" stage="Ö3Bühne" genre="hiphop">
             <description>
                 <name>Cro</name>
                 <bio>A German rapper and singer. 
@@ -30,7 +30,7 @@
             </description>
         </artist>
 
-        <artist id="_03" stage="Ö3Bühne">
+        <artist id="_03" stage="Ö3Bühne" genre="pop"> 
             <description>
                 <name>Wanda</name>
                 <bio>
@@ -38,6 +38,8 @@
                 </bio>
             </description>
         </artist>
+
+        
     </lineup>
 
     <vendors>
