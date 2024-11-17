@@ -85,7 +85,7 @@
     <xsl:template match="vendor">
         <xsl:variable name="vendortype" select="@type"/>
         <div class="$vendortype">
-            <!-- Use xml attribute within html attribute -->
+            <!-- Use xml attribute within html attribute  -->
              <xsl:attribute name="class">
                 <xsl:value-of select="$vendortype"/>
             </xsl:attribute>
