@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<musicFestival name="donauinselfest" type="mix" location="donauinsel">
+
+    <duration>
+        <date type="start" day="20" month="06" year="2025"/>
+        <date type="end" day="22" month="06" year="2025"/>
+    </duration>
+
+    <stages>
+        <stage id="Ö3Bühne"/>
+        <stage id="SchlagerBühne"/>
+        <stage id="FM-4Bühne"/>
+    </stages>
+
+    <lineup>
+        <artist id="_01" stage="SchlagerBühne">
+            <description>
+                <name>Helene Fischer</name>
+                <bio>A German schlager singer. Since her debut in 2005, she has won numerous awards</bio>
+            </description>
+        </artist>
+
+        <artist id="_02" stage="Ö3Bühne">
+            <description>
+                <name>Cro</name>
+                <bio>A German rapper and singer. 
+                    He describes his music as a mixture between rap and pop, which he calls "raop". 
+                    He is known for wearing a panda mask on stage.
+                </bio>
+            </description>
+        </artist>
+
+        <artist id="_03" stage="Ö3Bühne">
+            <description>
+                <name>Wanda</name>
+                <bio>
+                    An Austrian indie pop band founded in Vienna in 2012.
+                </bio>
+            </description>
+        </artist>
+    </lineup>
+
+    <vendors>
+        <vendor type="foodVendor">
+            <name>Donau Burger King</name>
+            <menu>
+                <item type="food">
+                    <name>The Danube Burger</name>
+                    <price>9.99</price>
+                </item>
+                <item type="drink">
+                    <name>Water from the Danube</name>
+                    <price>1337.69</price>
+                </item>
+            </menu>
+        </vendor>
+
+        <vendor type="foodVendor">
+            <name>Austro Waffles</name>
+            <menu>
+                <item type="food">
+                    <name>Classic Viennese Waffle</name>
+                    <price>7.49</price>
+                </item>
+                <item type="food">
+                    <name>Donauinsel Special</name>
+                    <price>11.79</price>
+                </item>
+            </menu>
+        </vendor>
+    </vendors>
+
+
+    <facilities>
+        <facility type="restroom">
+            <location>At the entrance</location>
+        </facility>
+        <facility type="restroom">
+            <location>Next to the food vendors</location>
+        </facility>
+        <facility type="first-aid">
+            <location>Behind the main stage</location>
+            <purpose>For when you throw up on your fellow visitors</purpose>
+        </facility>
+    </facilities>
+
+
+    
+</musicFestival>
