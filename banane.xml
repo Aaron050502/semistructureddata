@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary>
+   <totalTables>5</totalTables>
+   <menuSummary>
+      <totalFoodItems>4</totalFoodItems>
+      <totalDrinkItems>2</totalDrinkItems>
+      <mostExpensive>
+         <mostExpensiveFood>
+            <Garfield-Lasagna>Price: 69.69</Garfield-Lasagna>
+         </mostExpensiveFood>
+         <mostExpensiveDrink>
+            <Italian-Red-Wine-1959>Price: 239.99</Italian-Red-Wine-1959>
+         </mostExpensiveDrink>
+      </mostExpensive>
+   </menuSummary>
+   <staffSummary>
+      <totalWages>Total Wages: 14187.4</totalWages>
+      <mostExpensiveStaff>
+         <Mr-Clean job="dishwasher">Salary: 9999.99</Mr-Clean>
+      </mostExpensiveStaff>
+   </staffSummary>
+   <reservationSummary>
+      <totalReservations>3</totalReservations>
+   </reservationSummary>
+</summary>

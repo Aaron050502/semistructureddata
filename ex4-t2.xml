@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- xml document about an restaurant-->
+
+<restaurant name="Luigis Pizza" location="Karlsplatz 1">
+
+
+    <tables>
+        <table id="t1"> 
+            <name>Divine Table</name>
+        </table>
+        <table id="t2">
+            <name>Kings Table</name>
+        </table>
+        <table id="t3">
+            <name>Queens Table</name>
+        </table>
+        <table id="t4">
+            <name>Dukes Table</name>
+        </table>
+        <table id="t5">
+            <name>Counts Table</name>
+        </table>
+    </tables>
+
+
+    <menu>
+        <food>
+            <item>
+                <!-- Nesting depth 5 -->
+                <name>Pizza-Diavolo</name>
+                <price>14.99</price>
+            </item>
+
+            <item>
+                <name>Spaghetti-Aglio-E-Olio</name>
+                <price>8.99</price>
+            </item>
+
+            <item>
+                <name>Garfield-Lasagna</name>
+                <price>69.69</price>
+            </item>
+
+            <item>
+                <name>Risotto-A-La-Ralph</name>
+                <price>42.00</price>
+            </item>
+        </food>
+        
+        <drinks>
+            <item>
+                <name>Vodka-100%</name>
+                <price>44.44</price>
+            </item>
+
+            <item>
+                <name>Italian-Red-Wine-1959</name>
+                <price>239.99</price>
+            </item>
+        </drinks>
+    </menu>
+
+    <staff>
+        <person job="headChef">
+            <name>Ralph-T</name>
+            <salary>2849.99</salary>
+        </person>
+
+        <person job="waiter">
+            <name>Phillip-P</name>
+            <salary>1337.42</salary>
+        </person>
+
+        <person job="dishwasher">
+            <name>Mr-Clean</name>
+            <salary>9999.99</salary>
+        </person>
+    </staff>
+
+
+    <reservations>
+        <reservation table="t1">
+            <bookedFor>
+                <name>Leonardo DiCaprio</name>
+                <time>18:00-21:00</time>
+            </bookedFor>
+        </reservation>
+
+        <reservation table="t2">
+            <bookedFor>
+                <name>Brad Pitt</name>
+                <time>12:00-13:00</time>
+            </bookedFor>
+        </reservation>
+
+        <reservation table="t2">
+            <bookedFor>
+                <name>George Clooney</name>
+                <time>2:00-5:00</time>
+            </bookedFor>
+        </reservation>
+    </reservations>
+
+</restaurant>
